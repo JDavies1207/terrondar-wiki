@@ -1,0 +1,8 @@
+site_name: Terrondar Wiki
+theme:
+  name: material
+nav:
+  - Home: index.md
+  - About: about.md
+  - Characters: characters.md
+  - Locations: locations.md
