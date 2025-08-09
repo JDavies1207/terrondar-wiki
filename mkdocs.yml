@@ -1,6 +1,10 @@
 site_name: Terrondar Wiki
+site_url: https://jdavies1207.github.io/terrondar-wiki/
+use_directory_urls: true
 theme:
   name: material
+  extra:
+    base_url: /terrondar-wiki/
 nav:
   - Home: index.md
   - About: about.md
