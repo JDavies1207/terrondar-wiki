@@ -3,7 +3,7 @@ name: Deploy MkDocs site to GitHub Pages
 on:
   push:
     branches:
-      - main  # or your default branch
+      - main
 
 jobs:
   build-deploy:
@@ -12,6 +12,11 @@ jobs:
     steps:
     - name: Checkout repo
       uses: actions/checkout@v3
+
+    - name: Setup git user
+      run: |
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "github-actions[bot]@users.noreply.github.com"
 
     - name: Set up Python
       uses: actions/setup-python@v4
