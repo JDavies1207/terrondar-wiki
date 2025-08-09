@@ -1,8 +1,13 @@
 site_name: Terrondar Wiki
 theme:
   name: material
+
 nav:
   - Home: index.md
   - About: about.md
-  - Characters: characters.md
+  - Characters:
+      - PCs: PCs.md
+      - NPCs: NPCs.md
   - Locations: locations.md
+  - Factions: Factions.md
+  # Add other main categories and pages here
