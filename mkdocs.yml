@@ -16,9 +16,9 @@ theme:
 plugins:
   - search
   - awesome-pages
-  - simple-hooks:
-      hooks:
-        on_page_markdown: "hooks:on_page_markdown"
+
+hooks:
+  - hooks.py
 
 markdown_extensions:
   - admonition
