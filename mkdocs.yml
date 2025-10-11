@@ -5,12 +5,25 @@ theme:
   name: material
   extra:
     base_url: /terrondar-wiki/
-nav:
-  - Home: index.md
-  - About: about.md
-  - Characters:
-      - PCs: PCs.md
-      - NPCs: NPCs.md
-  - Locations: locations.md
-  - Factions: Factions.md
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.expand
+    - navigation.sections
+    - toc.integrate
+    - content.code.copy
+
+plugins:
+  - search
+  - awesome-pages
+
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+  - footnotes
+  - def_list
+  - attr_list
+  - tables
+  - md_in_html
   # Add other main categories and pages here
