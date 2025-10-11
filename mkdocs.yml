@@ -6,7 +6,7 @@ theme:
   extra:
     base_url: /terrondar-wiki/
   features:
-    - navigation.instant
+    #- navigation.instant
     - navigation.tracking
     - navigation.indexes
     - navigation.sections
