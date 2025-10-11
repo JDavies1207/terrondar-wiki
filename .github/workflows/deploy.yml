@@ -33,6 +33,9 @@ jobs:
       env:
         GDRIVE_SERVICE_ACCOUNT: ${{ secrets.GDRIVE_SERVICE_ACCOUNT }}
       run: python gdrive_sync.py
+    
+    - name: Ensure folder index pages
+      run: python ensure_folder_indexes.py
 
     - name: Build MkDocs site
       run: mkdocs build

@@ -8,7 +8,7 @@ theme:
   features:
     - navigation.instant
     - navigation.tracking
-    - navigation.expand
+    - navigation.indexes
     - navigation.sections
     - toc.integrate
     - content.code.copy
