@@ -9,7 +9,7 @@ theme:
     #- navigation.instant
     - navigation.tracking
     - navigation.indexes
-    - navigation.sections
+    #- navigation.sections
     - toc.integrate
     - content.code.copy
 
